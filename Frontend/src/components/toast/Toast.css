@@ -1,0 +1,121 @@
+.toast-viewport {
+  position: fixed;
+  top: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: min(420px, calc(100vw - 2rem));
+  pointer-events: none;
+}
+
+.toast {
+  pointer-events: auto;
+  position: relative;
+  overflow: hidden;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18), 0 2px 8px rgba(0, 0, 0, 0.08);
+  animation: toast-in 0.25s ease;
+}
+
+:root[data-theme="dark"] .toast {
+  background: #22252b;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45), 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.toast__row {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.9rem 1rem;
+}
+
+.toast__icon {
+  flex-shrink: 0;
+  display: flex;
+  color: #2fa84f;
+}
+
+.toast--error .toast__icon {
+  color: #e0473f;
+}
+
+.toast__message {
+  flex: 1;
+  margin: 0;
+  font-family: var(--font-body, sans-serif);
+  font-size: 0.92rem;
+  color: #2b2b2b;
+  line-height: 1.4;
+}
+
+:root[data-theme="dark"] .toast__message {
+  color: #eceef1;
+}
+
+.toast__close {
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  padding: 0.2rem;
+  cursor: pointer;
+  color: #9a9a9a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.toast__close:hover {
+  background: rgba(0, 0, 0, 0.06);
+  color: #4a4a4a;
+}
+
+:root[data-theme="dark"] .toast__close:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #eceef1;
+}
+
+.toast__bar {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: #2fa84f;
+  transform-origin: left;
+  animation: toast-shrink linear forwards;
+}
+
+.toast--error .toast__bar {
+  background: #e0473f;
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes toast-shrink {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toast,
+  .toast__bar {
+    animation: none;
+  }
+}

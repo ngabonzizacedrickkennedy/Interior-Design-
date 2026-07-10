@@ -1,0 +1,131 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 1.25rem 0;
+  background: var(--color-header-bg);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-line);
+}
+
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.header__mark {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--color-ink);
+  flex-shrink: 0;
+}
+
+/* Right side: nav + button together */
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 0.9rem;
+  color: var(--color-ink);
+}
+
+.header__nav a {
+  color: var(--color-ink);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.header__nav a:hover {
+  color: var(--color-accent);
+}
+
+.header__nav a.is-active {
+  color: var(--color-accent);
+}
+
+.header__theme-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-line);
+  background: transparent;
+  color: var(--color-ink-soft);
+  flex-shrink: 0;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.header__theme-btn:hover {
+  background: var(--color-bg-alt);
+  color: var(--color-ink);
+}
+
+.header__theme-btn svg {
+  width: 1.05rem;
+  height: 1.05rem;
+}
+
+/* Portal / Sign In button — solid accent, properly separated */
+.header__portal-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 1.35rem;
+  border-radius: 999px;
+  background: var(--color-accent);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background 0.2s ease, transform 0.15s ease;
+  box-shadow: 0 1px 3px rgba(177, 90, 53, 0.25);
+}
+
+.header__portal-btn:hover {
+  background: #9a4e2d;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(177, 90, 53, 0.3);
+}
+
+/* Green dot indicator when user is already logged in */
+.header__portal-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.75);
+  flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+  .header__nav {
+    gap: 1.1rem;
+    font-size: 0.8rem;
+  }
+
+  .header__right {
+    gap: 1.25rem;
+  }
+
+  .header__portal-btn {
+    padding: 0.45rem 1rem;
+    font-size: 0.8rem;
+  }
+}

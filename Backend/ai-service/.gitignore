@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+
+# Virtual environment (created in-place via `python -m venv .`)
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+share/

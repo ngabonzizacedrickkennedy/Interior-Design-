@@ -1,0 +1,109 @@
+.portfolio-page {
+  padding: 9rem 0 var(--space-section);
+}
+
+.portfolio-page__heading {
+  margin-top: 1.25rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+  max-width: 20ch;
+}
+
+.portfolio-page__intro {
+  margin-top: 1.25rem;
+  max-width: 50ch;
+  color: var(--color-ink-soft);
+}
+
+.portfolio-page__filters {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+}
+
+.portfolio-page__filter {
+  padding: 0.55rem 1.25rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-line);
+  background: transparent;
+  color: var(--color-ink-soft);
+  font-size: 0.85rem;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.portfolio-page__filter:hover {
+  border-color: var(--color-ink);
+  color: var(--color-ink);
+}
+
+.portfolio-page__filter.is-active {
+  background: var(--color-ink);
+  border-color: var(--color-ink);
+  color: var(--color-bg);
+}
+
+.portfolio-page__grid {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.portfolio-page__item {
+  display: block;
+}
+
+.portfolio-page__image {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.portfolio-page__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.portfolio-page__item:hover .portfolio-page__image img {
+  transform: scale(1.04);
+}
+
+.portfolio-page__caption {
+  margin-top: 1rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.portfolio-page__caption h3 {
+  font-size: 1.1rem;
+}
+
+.portfolio-page__caption span {
+  color: var(--color-ink-soft);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-page__image img {
+    transition: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .portfolio-page {
+    padding: 7rem 0 4.5rem;
+  }
+
+  .portfolio-page__grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .portfolio-page__filters {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,31 @@
+.testimonials-page {
+  padding: 9rem 0 var(--space-section);
+}
+
+.testimonials-page__heading {
+  margin-top: 1.25rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.testimonials-page__list {
+  margin-top: 3.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem 4rem;
+}
+
+.testimonials-page__item {
+  margin: 0;
+  max-width: 48ch;
+}
+
+@media (max-width: 900px) {
+  .testimonials-page {
+    padding: 7rem 0 4.5rem;
+  }
+
+  .testimonials-page__list {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}

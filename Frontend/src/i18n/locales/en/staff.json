@@ -1,0 +1,703 @@
+{
+  "businessReport": {
+    "accessRestricted": {
+      "title": "Access Restricted",
+      "message": "This section is only available to administrators."
+    },
+    "title": "Reports",
+    "subtitle": "Generate a professional monthly business report, ready to download or print.",
+    "download": "Download / Print",
+    "loading": "Building report...",
+    "docTitle": "Monthly Business Report",
+    "tagline": "Interior Design Studio",
+    "refNo": "Report No. SDG-{{ref}}",
+    "preparedBy": "Prepared by {{name}}",
+    "generatedOn": "Generated {{date}}",
+    "periodRange": "Period: {{start}} – {{end}}",
+    "financials": {
+      "title": "Financial Summary",
+      "deposits": "Client Deposits",
+      "investments": "Invested in Projects",
+      "compensated": "Paid to Designers",
+      "transactions": "Wallet Transactions"
+    },
+    "compensatedProjects": {
+      "title": "Designer Payouts",
+      "client": "Client",
+      "project": "Project",
+      "date": "Date",
+      "amount": "Amount",
+      "empty": "No designer payouts were made in this period."
+    },
+    "satisfaction": {
+      "title": "Client Satisfaction",
+      "responses": "Feedback Responses",
+      "averageRating": "Average Rating",
+      "none": "No feedback yet"
+    },
+    "snapshot": {
+      "title": "Business Snapshot",
+      "hint": "Cumulative figures as of the report generation date, not limited to the selected period.",
+      "totalClients": "Total Clients",
+      "activeProjects": "Active / Total Projects",
+      "taskCompletion": "Task Completion",
+      "quotationApproval": "Quotations Approved"
+    },
+    "footer": "Space Design Group — Confidential business report, prepared for internal use."
+  },
+  "designerAccount": {
+    "transferSuccess": "Transferred to your personal account.",
+    "transferError": "Transfer failed. Please try again.",
+    "loading": "Loading account...",
+    "title": "Account",
+    "subtitle": "Track your earnings from assigned projects and transfer them to your personal account.",
+    "pendingAmount": "Pending Amount",
+    "assignedAmount": "Assigned Amount",
+    "personalAccount": "Personal Account",
+    "transferSectionTitle": "Transfer to Personal Account",
+    "amountLabel": "Amount",
+    "amountTooHigh": "This exceeds your assigned amount.",
+    "transferring": "Transferring...",
+    "transferButton": "Transfer",
+    "historySectionTitle": "Transaction History",
+    "columnDate": "Date",
+    "columnType": "Type",
+    "columnAmount": "Amount",
+    "columnBalanceAfter": "Balance After",
+    "typeTransferToPersonal": "TRANSFER TO PERSONAL",
+    "typeOther": "{{type}}",
+    "noTransactions": "No transactions yet."
+  },
+  "designerDashboard": {
+    "approvalPending": "Awaiting admin review",
+    "approvalApproved": "Approved",
+    "approvalRejected": "Not approved",
+    "title": "Your Dashboard",
+    "subtitle": "Complete your professional background to raise your submission percentage.",
+    "loading": "Loading dashboard...",
+    "profileCompletion": "Profile Completion",
+    "cvScore": "CV Score",
+    "interviewScore": "Interview Score",
+    "approvalStatus": "Approval Status",
+    "profileCompletionSectionTitle": "Profile Completion",
+    "profileCompletionHint": "Upload your CV, add your GitHub/portfolio/other links, and complete your AI interview to reach 100%.",
+    "goToProfessionalBackground": "Go to Professional Background"
+  },
+  "designerMonitor": {
+    "accessRestrictedTitle": "Access Restricted",
+    "accessRestrictedMessage": "This section is only available to administrators.",
+    "approveSuccess": "Designer approved.",
+    "approveError": "Failed to approve designer.",
+    "rejectSuccess": "Designer rejected.",
+    "rejectError": "Failed to reject designer.",
+    "title": "Designer Monitor",
+    "subtitle": "Review each designer's AI CV and interview scores, then approve or reject them.",
+    "totalDesigners": "Total Designers",
+    "approved": "Approved",
+    "pendingReview": "Pending Review",
+    "designersSectionTitle": "Designers",
+    "loading": "Loading designers...",
+    "columnName": "Name",
+    "columnEmail": "Email",
+    "columnCvScore": "CV Score",
+    "columnInterviewScore": "Interview Score",
+    "columnStatus": "Status",
+    "columnActions": "Actions",
+    "statusPending": "Pending",
+    "statusApproved": "Approved",
+    "statusRejected": "Rejected",
+    "approveButton": "Approve",
+    "rejectButton": "Reject",
+    "noDesigners": "No designers have submitted a profile yet."
+  },
+  "designPortfolio": {
+    "title": "Design Portfolio",
+    "subtitle": "Upload design files, manage document versions, and track approvals.",
+    "totalDocuments": "Total Documents",
+    "approved": "Approved",
+    "awaitingReview": "Awaiting Review",
+    "cancel": "Cancel",
+    "uploadDesignFile": "+ Upload Design File",
+    "uploadSectionTitle": "Upload Design File",
+    "projectLabel": "Project",
+    "selectProject": "Select project",
+    "fileLabel": "File",
+    "noFileChosen": "No file chosen",
+    "uploading": "Uploading...",
+    "upload": "Upload",
+    "loading": "Loading documents...",
+    "noDesignFiles": "No design files uploaded yet.",
+    "projectFallbackName": "Project {{id}}",
+    "columnFile": "File",
+    "columnVersion": "Version",
+    "columnStatus": "Status",
+    "columnActions": "Actions",
+    "statusPending": "Pending",
+    "statusApproved": "Approved",
+    "statusRejected": "Rejected",
+    "approveButton": "Approve",
+    "rejectButton": "Reject",
+    "newVersionButton": "+ Version"
+  },
+  "analyticsDashboard": {
+    "accessRestrictedTitle": "Access Restricted",
+    "accessRestrictedMessage": "Analytics are available to Project Managers and Administrators only.",
+    "computingSnapshot": "Computing analytics snapshot...",
+    "title": "Analytics Dashboard",
+    "subtitle": "Live metrics computed from all active system data.",
+    "refresh": "Refresh",
+    "notAvailable": "N/A",
+    "kpi": {
+      "totalClients": "Total Clients",
+      "activeProjects": "Active Projects",
+      "avgProjectProgress": "Avg Project Progress",
+      "taskCompletion": "Task Completion",
+      "totalRequests": "Total Requests",
+      "approvedRequests": "Approved Requests",
+      "approvedQuotations": "Approved Quotations",
+      "avgClientRating": "Avg Client Rating"
+    },
+    "performanceRates": "Performance Rates",
+    "rate": {
+      "taskCompletion": "Task Completion Rate",
+      "tasksCompletedOf": "{{completed}} of {{total}} tasks completed",
+      "requestApproval": "Request Approval Rate",
+      "requestsApprovedOf": "{{approved}} of {{total}} requests approved",
+      "quotationApproval": "Quotation Approval Rate",
+      "quotationsApprovedOf": "{{approved}} of {{total}} quotations approved",
+      "avgProjectProgress": "Average Project Progress",
+      "totalProjects": "{{total}} total projects"
+    },
+    "serviceDeliverySummary": "Service Delivery Summary",
+    "summary": {
+      "requests": "Requests",
+      "requestsLine": "{{total}} total • {{approved}} approved • {{pending}} pending",
+      "projects": "Projects",
+      "projectsLine": "{{total}} total • {{active}} active • {{other}} other",
+      "tasks": "Tasks",
+      "tasksLine": "{{total}} total • {{done}} done • {{pending}} pending",
+      "clientSatisfaction": "Client Satisfaction",
+      "averageRating": "{{rating}} / 5 average rating",
+      "noFeedbackYet": "No feedback recorded yet"
+    }
+  },
+  "clientManagement": {
+    "accessRestrictedTitle": "Access Restricted",
+    "accessRestrictedMessage": "User Management is only available to administrators.",
+    "managerCreatedSuccess": "Manager account created for {{name}}.",
+    "title": "User Management",
+    "subtitle": "Register clients, create manager accounts, and review communication history.",
+    "kpi": {
+      "totalClients": "Total Clients",
+      "withActiveHistory": "With Active History"
+    },
+    "managerAccounts": "Manager Accounts",
+    "managerAccountsNote": "Only administrators can create Project Manager accounts.",
+    "cancel": "Cancel",
+    "createManagerButton": "+ Create Manager",
+    "field": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "temporaryPassword": "Temporary Password",
+      "phone": "Phone",
+      "propertyType": "Property Type"
+    },
+    "creating": "Creating...",
+    "createManagerAccountButton": "Create Manager Account",
+    "registerNewClientButton": "+ Register New Client",
+    "newClientRegistration": "New Client Registration",
+    "propertyType": {
+      "House": "House",
+      "Apartment": "Apartment",
+      "Office": "Office",
+      "Retail": "Retail",
+      "Other": "Other"
+    },
+    "saveClientButton": "Save Client",
+    "clientDatabase": "Client Database",
+    "searchPlaceholder": "Search by name or email...",
+    "loadingClients": "Loading clients...",
+    "column": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "property": "Property",
+      "history": "History",
+      "actions": "Actions"
+    },
+    "hide": "Hide",
+    "viewHistoryCount": "View ({{count}})",
+    "save": "Save",
+    "edit": "Edit",
+    "communicationHistory": "Communication History",
+    "noEntriesYet": "No entries yet.",
+    "logNotePlaceholder": "Log a communication note...",
+    "addNote": "Add Note",
+    "noClientsMatchSearch": "No clients match your search.",
+    "noClientsRegisteredYet": "No clients registered yet."
+  },
+  "compensation": {
+    "accessRestrictedTitle": "Access Restricted",
+    "accessRestrictedMessage": "This section is only available to project managers.",
+    "fundsReleasedSuccess": "Funds released to the designer.",
+    "failedToCompensate": "Failed to compensate.",
+    "title": "Compensation",
+    "subtitle": "Release invested funds to designers once their assigned projects are completed.",
+    "kpi": {
+      "assignedProjects": "Assigned Projects",
+      "blockedInSystem": "Blocked in System"
+    },
+    "assignedProjects": "Assigned Projects",
+    "loadingProjects": "Loading projects...",
+    "column": {
+      "request": "Request",
+      "assignedTo": "Assigned To",
+      "status": "Status",
+      "investedAmount": "Invested Amount",
+      "compensated": "Compensated",
+      "actions": "Actions"
+    },
+    "status": {
+      "NOT_READY": "Not Ready",
+      "PENDING": "Pending",
+      "READY": "Ready",
+      "PLANNING": "Planning",
+      "ACTIVE": "Active",
+      "ON_HOLD": "On Hold",
+      "COMPLETED": "Completed",
+      "CANCELLED": "Cancelled"
+    },
+    "compensating": "Compensating...",
+    "compensateButton": "Compensate",
+    "done": "Done",
+    "notYetCompleted": "Not yet completed",
+    "noAssignedProjectsYet": "No assigned projects yet."
+  },
+  "customerFeedback": {
+    "selectProjectAndRating": "Please select a project and a star rating.",
+    "leaveFeedback": "Leave Feedback",
+    "customerFeedback": "Customer Feedback",
+    "clientSubtitle": "Rate your experience and help us improve our service.",
+    "staffSubtitle": "View satisfaction scores and manage client feedback records.",
+    "kpi": {
+      "averageRating": "Average Rating",
+      "totalResponses": "Total Responses",
+      "fiveStarReviews": "5-Star Reviews"
+    },
+    "rateYourExperience": "Rate Your Experience",
+    "submitOnBehalfOfClient": "Submit Feedback on Behalf of Client",
+    "thankYouRecorded": "Thank you — your feedback has been recorded.",
+    "field": {
+      "project": "Project",
+      "overallRating": "Overall rating",
+      "comments": "Comments"
+    },
+    "selectProject": "Select project",
+    "commentsPlaceholder": "Tell us about your experience with this project...",
+    "submitFeedbackButton": "Submit Feedback",
+    "allFeedbackRecords": "All Feedback Records",
+    "loadingFeedback": "Loading feedback...",
+    "column": {
+      "client": "Client",
+      "rating": "Rating",
+      "comments": "Comments",
+      "date": "Date"
+    },
+    "noFeedbackSubmittedYet": "No feedback submitted yet."
+  },
+  "adminPortfolio": {
+    "accessRestricted": {
+      "title": "Access Restricted",
+      "message": "This section is only available to administrators."
+    },
+    "title": "Portfolio",
+    "subtitle": "Validated design files, with AI analysis recommending which milestones look ready to complete.",
+    "loading": "Loading portfolio...",
+    "empty": "No approved design files yet.",
+    "projectFallback": "Project {{id}}",
+    "analyzing": "Analyzing...",
+    "aiAnalysis": "AI Analysis",
+    "analysisFailed": "AI analysis failed.",
+    "recommendedComplete": "Recommended to mark complete:",
+    "noMilestonesReady": "No milestones look ready yet.",
+    "goToProjectManagement": "Go to Project Management to tick these off."
+  },
+  "homeController": {
+    "accessRestricted": {
+      "title": "Access Restricted",
+      "message": "This section is only available to administrators."
+    },
+    "noFileChosen": "No file chosen",
+    "uploadSuccess": "Background video updated.",
+    "uploadError": "Failed to upload video.",
+    "title": "Home Controller",
+    "subtitle": "Upload the background video shown behind the login, register, and password pages.",
+    "currentVideo": "Current Video",
+    "loading": "Loading...",
+    "videoUpdatedAt": "{{fileName}} · updated {{date}}",
+    "noVideo": "No background video uploaded yet — the auth pages currently show a plain dark background.",
+    "uploadNewVideo": "Upload New Video",
+    "videoFile": "Video file",
+    "uploading": "Uploading...",
+    "uploadVideo": "Upload Video"
+  },
+  "professionalBackground": {
+    "loading": "Loading professional background...",
+    "title": "Professional Background",
+    "subtitle": "Build your profile and complete your AI interview to raise your profile completion.",
+    "tabs": {
+      "background": "Professional Background",
+      "interview": "Interview"
+    },
+    "cv": {
+      "title": "CV / Resume",
+      "currentFile": "Current file:",
+      "notValidDocument": "⚠ This file does not look like a CV/resume.",
+      "strengthScore": "AI Strength Score: {{score}}/10",
+      "uploadLabel": "Upload CV (PDF)",
+      "uploadingAndAnalyzing": "Uploading and analyzing...",
+      "uploadButton": "Upload CV",
+      "noFileChosen": "No file chosen",
+      "uploadSuccess": "CV uploaded and analyzed by AI.",
+      "uploadError": "Failed to upload CV."
+    },
+    "links": {
+      "title": "Links",
+      "github": "GitHub",
+      "portfolio": "Portfolio",
+      "other": "Other link",
+      "save": "Save",
+      "saving": "Saving...",
+      "saveSuccess": "Professional background saved.",
+      "saveError": "Failed to save professional background."
+    },
+    "interview": {
+      "title": "AI Interview",
+      "uploadCvFirst": "Upload your CV in the Professional Background tab first.",
+      "questionProgress": "Question {{current}} of {{total}}",
+      "aiSpeaking": "— AI speaking...",
+      "repeatQuestion": "Repeat question",
+      "noSpeechSupport": "Your browser doesn't support live speech-to-text. Please type your answer below manually.",
+      "micError": "Microphone error ({{error}}). You can still type your answer below.",
+      "yourAnswer": "Your answer (live transcript — you can edit it)",
+      "scoring": "Scoring...",
+      "nextQuestion": "Next question",
+      "send": "Send",
+      "score": "Score: {{score}}/10",
+      "retake": "Retake Interview",
+      "starting": "Starting...",
+      "description": "The AI will ask you 5 questions based on your CV, live, using your camera and microphone.",
+      "startInterview": "Start Interview",
+      "startError": "Could not start the interview. Make sure your CV is uploaded.",
+      "scoreError": "Could not score the interview.",
+      "submitSuccess": "Interview submitted and scored by AI."
+    }
+  },
+  "projectManagement": {
+    "status": {
+      "notReady": "Not Ready",
+      "pending": "Pending",
+      "ready": "Ready",
+      "planning": "Planning",
+      "active": "Active",
+      "onHold": "On Hold",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "untitledProject": "Untitled project",
+    "collapse": "Collapse",
+    "viewTasks": "View Tasks",
+    "client": "Client:",
+    "projectStatus": "Project Status",
+    "noMilestones": "No milestones added yet.",
+    "addMilestonePlaceholder": "Add a milestone...",
+    "add": "Add",
+    "milestonesComplete": "{{achieved}} of {{total}} milestones complete",
+    "accessRestricted": {
+      "title": "Access Restricted",
+      "message": "Project Management has moved to the Administrator role. Use Tasks and Resources or Compensation instead."
+    },
+    "myProjectsTitle": "My Projects",
+    "title": "Project Management",
+    "clientSubtitle": "Track the progress of your active projects and milestones.",
+    "subtitle": "Monitor active projects, update milestones, and track progress.",
+    "loading": "Loading projects...",
+    "stats": {
+      "activeProjects": "Active Projects",
+      "totalProjects": "Total Projects"
+    },
+    "tabs": {
+      "active": "Active ({{count}})",
+      "all": "All Projects ({{count}})"
+    },
+    "empty": {
+      "client": "You have no active projects yet.",
+      "active": "No active projects right now.",
+      "all": "No projects found."
+    },
+    "unassigned": {
+      "loading": "Loading unassigned projects...",
+      "loadError": "Failed to load unassigned projects.",
+      "title": "Unassigned Projects",
+      "invested": "Invested: {{amount}}",
+      "assessing": "Assessing...",
+      "aiRequirementAssessment": "AI Requirement Assessment",
+      "assessmentFailed": "AI assessment failed.",
+      "aiRecommends": "AI recommends: {{mode}} (complexity {{score}}/10)",
+      "selfCandidate": "Self Candidate",
+      "staff": "Staff",
+      "selectApprovedDesigner": "Select approved designer",
+      "selectStaffTeam": "Select staff team",
+      "staffOptionLabel": "{{name}} ({{count}} members)",
+      "assigning": "Assigning...",
+      "assign": "Assign",
+      "assignSuccess": "Project assigned.",
+      "assignError": "Failed to assign project.",
+      "loadCandidatesError": "Failed to load candidates.",
+      "loadStaffError": "Failed to load staff teams."
+    },
+    "designerView": {
+      "loading": "Loading projects...",
+      "title": "Projects",
+      "subtitle": "Your assigned projects and the client's full request details.",
+      "empty": "You have no assigned projects yet.",
+      "viewClientRequestDetails": "View Client Request Details",
+      "loadingDetails": "Loading details...",
+      "roomType": "Room Type",
+      "budget": "Budget",
+      "timeline": "Timeline",
+      "requestDetails": "Request Details",
+      "styleTags": "Style Tags",
+      "progressTitle": "Milestones",
+      "uploadPhoto": "Upload Progress Photo",
+      "uploadingPhoto": "Uploading...",
+      "photoHint": "Photos you upload go to Design Files for your Project Manager to review.",
+      "photoUploadSuccess": "Progress photo uploaded — your Project Manager can review it in Design Files.",
+      "photoUploadError": "Could not upload the photo. Please try again."
+    }
+  },
+  "securityAccess": {
+    "accessRestricted": {
+      "title": "Access Restricted",
+      "message": "This section is only available to system administrators."
+    },
+    "title": "Security and Access Control",
+    "subtitle": "Manage user accounts, assign roles, and review the system audit trail.",
+    "systemOverview": {
+      "title": "System Overview",
+      "description": "Full administrative access — manage all user permissions and access tiers."
+    },
+    "stats": {
+      "totalUsers": "Total Users",
+      "active": "Active",
+      "admins": "Admins"
+    },
+    "userManagement": {
+      "title": "User Management",
+      "searchPlaceholder": "Search by name or email...",
+      "loading": "Loading users...",
+      "columns": {
+        "name": "Name",
+        "email": "Email",
+        "role": "Role",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "status": {
+        "active": "Active",
+        "disabled": "Disabled"
+      },
+      "actions": {
+        "disable": "Disable",
+        "enable": "Enable"
+      },
+      "noResults": "No users match your search."
+    },
+    "auditTrail": {
+      "title": "System Audit Trail",
+      "description": "Read-only record of all significant system actions.",
+      "columns": {
+        "timestamp": "Timestamp",
+        "operator": "Operator",
+        "action": "Action Taken"
+      },
+      "noResults": "No audit entries recorded yet."
+    },
+    "roles": {
+      "CLIENT": "Client",
+      "STAFF": "Staff",
+      "PROJECT_MANAGER": "Project Manager",
+      "ADMIN": "Admin"
+    }
+  },
+  "staffDetail": {
+    "loading": "Loading staff team...",
+    "subtitle": "Created by {{creatorName}} · {{memberCount}} member(s)",
+    "tabs": {
+      "account": "Account",
+      "projects": "Projects",
+      "designFiles": "Design Files",
+      "messaging": "Messaging"
+    },
+    "account": {
+      "title": "Account",
+      "pendingAmount": "Pending Amount",
+      "assignedAmount": "Assigned Amount",
+      "splitting": "Splitting...",
+      "splitButton": "Split Assigned Amount"
+    },
+    "projects": {
+      "title": "Assigned Projects",
+      "empty": "No projects assigned to this staff yet.",
+      "columns": {
+        "client": "Client",
+        "request": "Request",
+        "progress": "Progress",
+        "status": "Status"
+      }
+    },
+    "designFiles": {
+      "title": "Design Files",
+      "projectLabel": "Project",
+      "selectProject": "Select project",
+      "projectFallback": "Project {{id}}",
+      "uploadLabel": "Upload progress file",
+      "noFileChosen": "No file chosen",
+      "uploading": "Uploading...",
+      "uploadButton": "Upload",
+      "columns": {
+        "file": "File",
+        "version": "Version",
+        "status": "Status"
+      },
+      "empty": "No design files uploaded yet."
+    },
+    "messaging": {
+      "title": "Messaging",
+      "empty": "No messages yet. Say hello!",
+      "placeholder": "Type a message...",
+      "send": "Send"
+    },
+    "success": {
+      "splitBalance": "Balance split across all members.",
+      "uploadFile": "Progress file uploaded."
+    },
+    "errors": {
+      "sendMessage": "Failed to send message.",
+      "splitBalance": "Failed to split balance.",
+      "loadDesignFiles": "Failed to load design files.",
+      "uploadFile": "Upload failed."
+    },
+    "approvalStatus": {
+      "APPROVED": "Approved",
+      "REJECTED": "Rejected",
+      "PENDING": "Pending"
+    }
+  },
+  "staffHub": {
+    "title": "Staff",
+    "subtitle": "Create or join a staff team to collaborate with other designers.",
+    "cancelButton": "Cancel",
+    "createButton": "+ Create Staff",
+    "createForm": {
+      "title": "Create Staff Team",
+      "teamNameLabel": "Team name",
+      "inviteHeading": "Invite approved designers",
+      "columns": {
+        "name": "Name",
+        "cvScore": "CV Score",
+        "aiSummary": "AI Summary"
+      },
+      "generating": "Generating...",
+      "aiSummaryButton": "AI Summary",
+      "noCandidates": "No other approved designers yet.",
+      "creating": "Creating...",
+      "submitButton": "Create and Invite"
+    },
+    "invitations": {
+      "title": "Invitations",
+      "loading": "Loading invitations...",
+      "empty": "No pending invitations.",
+      "columns": {
+        "staffTeam": "Staff Team",
+        "invited": "Invited",
+        "actions": "Actions"
+      },
+      "accept": "Accept",
+      "decline": "Decline"
+    },
+    "myStaffs": {
+      "title": "My Staffs",
+      "loading": "Loading staffs...",
+      "empty": "You are not part of any staff team yet.",
+      "columns": {
+        "name": "Name",
+        "creator": "Creator",
+        "members": "Members",
+        "assignedBalance": "Assigned Balance"
+      },
+      "view": "View"
+    },
+    "success": {
+      "staffCreated": "Staff team created.",
+      "invitationAccepted": "Invitation accepted.",
+      "invitationDeclined": "Invitation declined."
+    },
+    "errors": {
+      "loadCandidates": "Failed to load candidates.",
+      "aiSummary": "Could not generate AI summary.",
+      "createStaff": "Failed to create staff team.",
+      "acceptInvitation": "Failed to accept invitation.",
+      "declineInvitation": "Failed to decline invitation."
+    }
+  },
+  "tasksResources": {
+    "title": "Tasks and Resources",
+    "titleStaff": "My Tasks",
+    "subtitle": "Assign, track, and manage all project tasks.",
+    "subtitleStaff": "Tasks currently assigned to you.",
+    "stats": {
+      "total": "Total Tasks",
+      "completed": "Completed",
+      "pending": "Pending",
+      "overdue": "Overdue"
+    },
+    "createTask": {
+      "title": "Create Task",
+      "projectLabel": "Project",
+      "selectProject": "Select project",
+      "assignToLabel": "Assign to",
+      "selectStaffMember": "Select staff member",
+      "taskTitleLabel": "Task title",
+      "deadlineLabel": "Deadline",
+      "submitButton": "Create Task"
+    },
+    "taskReports": {
+      "title": "Task Reports",
+      "loading": "Loading tasks...",
+      "columns": {
+        "task": "Task",
+        "project": "Project",
+        "assignedTo": "Assigned To",
+        "deadline": "Deadline",
+        "status": "Status"
+      },
+      "overdueTag": "OVERDUE",
+      "unassigned": "Unassigned",
+      "noDate": "No date",
+      "status": {
+        "done": "Done",
+        "overdue": "Overdue",
+        "pending": "Pending"
+      },
+      "noFilteredTasks": "No {{filter}} tasks.",
+      "noTasks": "No tasks found."
+    },
+    "filters": {
+      "ALL": "All",
+      "PENDING": "Pending",
+      "DONE": "Done",
+      "OVERDUE": "Overdue"
+    }
+  }
+}

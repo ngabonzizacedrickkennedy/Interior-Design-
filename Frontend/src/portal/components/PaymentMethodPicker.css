@@ -1,0 +1,111 @@
+.payment-picker__methods {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.payment-picker__method {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1.5px solid var(--color-line);
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.payment-picker__method:hover {
+  border-color: var(--color-accent);
+}
+
+.payment-picker__method.is-selected {
+  border-color: var(--color-accent);
+  background: var(--color-bg-alt);
+  box-shadow: 0 0 0 1px var(--color-accent);
+}
+
+.payment-picker__panel {
+  margin-bottom: 1rem;
+}
+
+.payment-picker__note {
+  font-size: 0.78rem;
+  color: var(--color-ink-soft);
+  margin-top: 0.5rem;
+}
+
+/* Live credit-card mock preview */
+.payment-card-preview {
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 1.586 / 1;
+  border-radius: 14px;
+  padding: 1.1rem 1.3rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  font-family: "Courier New", monospace;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.payment-card-preview--visa {
+  background: linear-gradient(135deg, #1a1f71 0%, #2d3a9e 60%, #4453c9 100%);
+}
+
+.payment-card-preview--mastercard {
+  background: linear-gradient(135deg, #2b2b2b 0%, #4a4a4a 100%);
+}
+
+.payment-card-preview__chip {
+  width: 2.1rem;
+  height: 1.5rem;
+  border-radius: 4px;
+  background: linear-gradient(135deg, #e8d48a, #cba24a);
+}
+
+.payment-card-preview__number {
+  font-size: 1.15rem;
+  letter-spacing: 0.12em;
+}
+
+.payment-card-preview__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+/* Bank transfer details */
+.payment-picker__bank-details {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-line);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+}
+
+.payment-picker__bank-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid var(--color-line);
+  font-size: 0.9rem;
+}
+
+.payment-picker__bank-row:last-of-type {
+  border-bottom: none;
+}
+
+.payment-picker__bank-row span {
+  color: var(--color-ink-soft);
+}

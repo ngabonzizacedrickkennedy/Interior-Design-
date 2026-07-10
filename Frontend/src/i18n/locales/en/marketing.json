@@ -1,0 +1,304 @@
+{
+  "chatWidget": {
+    "title": "Space Design Group",
+    "subtitle": "Ask us about your space",
+    "greeting": "Hi! Ask me anything about our interior design services, how we work, or how to get started.",
+    "placeholder": "Type your question...",
+    "open": "Open chat",
+    "close": "Close chat",
+    "send": "Send",
+    "errorFallback": "Something went wrong sending that. Please try again in a moment."
+  },
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "about": "About",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "myPortal": "My Portal",
+    "signIn": "Sign In",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
+  },
+  "hero": {
+    "eyebrow": "Space Design Group",
+    "titleLine1": "Step inside.",
+    "titleLine2": "Room by room.",
+    "showFrame": "Show {{label}}",
+    "frames": {
+      "exterior": "The House",
+      "living": "Living Room",
+      "kitchen": "Kitchen",
+      "bedroom": "Bedroom",
+      "bath": "Bathroom"
+    }
+  },
+  "marquee": {
+    "items": [
+      "Interior Design",
+      "AI Room Visualization",
+      "Architecture",
+      "Exhibition Design",
+      "Branding",
+      "Space Planning"
+    ]
+  },
+  "approach": {
+    "eyebrow": "Our Approach",
+    "heading": "Design that starts with how a room is lived in, not how it photographs.",
+    "steps": {
+      "0": {
+        "title": "Listen",
+        "body": "We start with how you actually live — the routines, the clutter points, the rooms you avoid."
+      },
+      "1": {
+        "title": "Draft",
+        "body": "Spatial plans, material boards, and lighting studies, refined together until the layout feels obvious."
+      },
+      "2": {
+        "title": "Build",
+        "body": "We manage trades, sourcing, and installation, so the only thing you do is watch it come together."
+      }
+    }
+  },
+  "portfolioSection": {
+    "eyebrow": "Portfolio",
+    "heading": "Selected projects"
+  },
+  "statement": {
+    "quote": "A well-designed room shouldn't announce itself. It should just make sense the moment you walk in — and keep making sense five years later.",
+    "attribution": "— Space Design Group, Founding Principle"
+  },
+  "servicesSection": {
+    "eyebrow": "Services",
+    "heading": "What we take on",
+    "items": {
+      "0": {
+        "title": "Full Interior Design",
+        "body": "End-to-end design and project management, from first sketch to final styling."
+      },
+      "1": {
+        "title": "Space Planning",
+        "body": "Layouts that resolve flow, storage, and light before a single finish is chosen."
+      },
+      "2": {
+        "title": "Renovation Direction",
+        "body": "On-site coordination with architects and trades to keep a renovation on design."
+      },
+      "3": {
+        "title": "Furniture & Sourcing",
+        "body": "Curated sourcing across vintage, custom, and ready-made pieces within your budget."
+      }
+    }
+  },
+  "stackingShowcase": {
+    "panels": {
+      "light": {
+        "title": "Light",
+        "body": "Every room begins with how light moves through it, hour by hour."
+      },
+      "material": {
+        "title": "Material",
+        "body": "Textures chosen to age well, not just to photograph well on day one."
+      },
+      "form": {
+        "title": "Form",
+        "body": "Layouts that resolve flow and storage before a single finish is picked."
+      },
+      "detail": {
+        "title": "Detail",
+        "body": "The small, considered decisions that make a space feel finished."
+      },
+      "craft": {
+        "title": "Craft",
+        "body": "Nothing off-the-shelf without a reason — every piece earns its place."
+      }
+    }
+  },
+  "capabilities": {
+    "eyebrow": "Capabilities",
+    "heading": "Four disciplines, one accountable team.",
+    "items": {
+      "visualization": {
+        "index": "01",
+        "title": "3D Modeling & AI Visualization",
+        "body": "See a room restyled before a single piece of furniture moves. Upload a photo and preview it staged in your chosen style.",
+        "cta": "Try the visualizer"
+      },
+      "architecture": {
+        "index": "02",
+        "title": "Interior & Exterior Architecture",
+        "body": "Spatial and structural planning that treats a building's exterior and interior as one coherent design problem."
+      },
+      "exhibition": {
+        "index": "03",
+        "title": "Exhibition Design",
+        "body": "Temporary and permanent exhibition spaces designed for flow, storytelling, and brand presence."
+      },
+      "branding": {
+        "index": "04",
+        "title": "Branding",
+        "body": "Identity and environmental branding that extends a company's visual language into physical space."
+      }
+    }
+  },
+  "cta": {
+    "heading": "Have a space that's not working yet?",
+    "startProject": "Start a project",
+    "alreadyClient": "Already a client?",
+    "signInPortal": "Sign in to your portal →"
+  },
+  "footer": {
+    "copyright": "© {{year}} Space Design Group",
+    "tagline": "An interior design studio crafting considered, livable spaces — from first sketch to final styling.",
+    "explore": "Explore",
+    "studio": "Studio",
+    "location": "Kigali, Rwanda",
+    "getStarted": "Get Started",
+    "startProject": "Start a project",
+    "signIn": "Sign in to your portal",
+    "social": {
+      "email": "Email",
+      "instagram": "Instagram",
+      "pinterest": "Pinterest",
+      "twitter": "Twitter"
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "story": {
+      "heading": "We started Space Design Group because most renovations don't fail at the design stage — they fail at the handoff.",
+      "body": "Space Design Group was founded to close that gap: one team carrying a project from first floor plan through final styling, so nothing gets lost in translation between designer, contractor, and client. Over the years that's meant working across full home renovations, single-room refreshes, and commercial fit-outs — always with the same approach: understand how a space gets used before deciding how it should look."
+    },
+    "philosophy": {
+      "eyebrow": "Studio Philosophy",
+      "heading": "Good design disappears into daily life.",
+      "body": "We measure a finished room by how it holds up a year in, not how it photographs on handover day. That means prioritizing storage that actually gets used, materials that age well, and layouts that don't need a redesign the moment life changes around them."
+    },
+    "team": {
+      "eyebrow": "Team",
+      "heading": "The people behind the work",
+      "members": {
+        "0": { "role": "Founder & Principal Designer" },
+        "1": { "role": "Senior Interior Designer" },
+        "2": { "role": "Project & Sourcing Lead" },
+        "3": { "role": "Design Associate" }
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "heading": "Let's talk about your space",
+    "intro": "Reach out directly, or use the form and we'll get back to you within two business days.",
+    "info": {
+      "studio": "Studio",
+      "email": "Email",
+      "phone": "Phone",
+      "hours": "Hours",
+      "hoursValue": "Monday – Friday, 9am – 6pm"
+    },
+    "map": {
+      "title": "Space Design Group studio location"
+    },
+    "confirmation": {
+      "heading": "Thanks — message received.",
+      "body": "We'll be in touch within two business days."
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending..."
+    },
+    "toast": {
+      "messageSent": "Message sent!",
+      "messageFailed": "Could not send your message. Please try again."
+    }
+  },
+  "portfolioPage": {
+    "eyebrow": "Portfolio",
+    "heading": "Selected work, in full.",
+    "intro": "A wider look at projects across residential and commercial spaces — filter by category, or browse everything.",
+    "filters": {
+      "ariaLabel": "Filter by category",
+      "all": "All",
+      "residential": "Residential",
+      "commercial": "Commercial"
+    }
+  },
+  "projectDetail": {
+    "eyebrow": "Portfolio",
+    "notFound": {
+      "heading": "Project not found"
+    },
+    "backToPortfolio": "Back to portfolio",
+    "back": "← Back to portfolio",
+    "galleryAlt": "{{title}} detail {{index}}",
+    "cta": {
+      "prompt": "Interested in something similar?",
+      "button": "Request a service"
+    }
+  },
+  "requestService": {
+    "eyebrow": "Request a Service",
+    "heading": "Tell us about your project",
+    "intro": "The more detail you can give us up front, the faster we can come back with a useful response.",
+    "confirmation": {
+      "eyebrow": "Request received",
+      "heading": "Thanks — we've got your request.",
+      "body": "A member of the team will reach out within two business days to talk through next steps."
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "serviceType": "Service type",
+      "selectService": "Select a service",
+      "propertyType": "Property type",
+      "selectPropertyType": "Select a property type",
+      "budgetRange": "Budget range",
+      "selectBudgetRange": "Select a budget range",
+      "description": "Project description",
+      "descriptionPlaceholder": "What are you hoping to change, and what's prompting the project now?",
+      "preferredContact": "Preferred contact method",
+      "contactEmail": "Email",
+      "contactPhone": "Phone",
+      "submit": "Submit request"
+    },
+    "toast": {
+      "requestReceived": "Request received!"
+    }
+  },
+  "servicesPage": {
+    "eyebrow": "Services",
+    "heading": "What we take on",
+    "intro": "Four ways to work with us, from a single consultation to a full home or commercial fit-out.",
+    "idealFor": "Ideal for:",
+    "requestButton": "Request this service"
+  },
+  "testimonialsPage": {
+    "eyebrow": "Testimonials",
+    "heading": "What clients say",
+    "items": {
+      "0": {
+        "quote": "They asked more questions about how we actually live than any designer we'd talked to before. The result is the first home that's felt finished the moment we moved back in.",
+        "attribution": "Emmanuel & Diane Habimana — Riverside Loft"
+      },
+      "1": {
+        "quote": "We needed our office redesigned without shutting the studio down for weeks. Space Design Group phased the whole thing around our deadlines and it barely disrupted a single workday.",
+        "attribution": "Solange Mukamana — Birchgrove Studio"
+      },
+      "2": {
+        "quote": "I came in for a single consultation about a living room I'd been stuck on for two years. Walked out with a plan I actually executed in a weekend.",
+        "attribution": "Jean-Paul Niyonsenga — Design Consultation client"
+      },
+      "3": {
+        "quote": "Hartwell House had so much original character we were scared to touch it. They worked with the building instead of against it, which is exactly what we needed.",
+        "attribution": "The Nshimiyimana Family — Hartwell House"
+      }
+    }
+  }
+}

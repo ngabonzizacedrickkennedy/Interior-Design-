@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://REPLACE_WITH_CORE_SERVICE_RENDER_URL/api/:path*"
+    }
+  ]
+}

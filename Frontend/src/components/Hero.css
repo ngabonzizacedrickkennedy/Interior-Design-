@@ -1,0 +1,185 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 7rem 0 3rem;
+}
+
+.hero__intro {
+  position: relative;
+  z-index: 2;
+}
+
+.hero__intro .eyebrow {
+  color: #fff;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+.hero__title {
+  margin-top: 1rem;
+  font-size: clamp(3rem, 8vw, 7.5rem);
+  line-height: 0.98;
+  letter-spacing: -0.01em;
+  max-width: 14ch;
+  color: #fff;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+}
+
+.hero__stage {
+  position: absolute;
+  inset: -6% 0 0 0;
+  height: 112%;
+  transition: transform 0.1s linear;
+  will-change: transform;
+}
+
+/* Sits above every photo, below the text. Darkens the top (behind the
+   title) and bottom (behind the room label/dots) by a fixed amount so
+   those stay readable no matter how bright the current photo is, instead
+   of depending on each photo's own (much weaker) gradient. */
+.hero__vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.55) 0%,
+    rgba(0, 0, 0, 0) 28%,
+    rgba(0, 0, 0, 0) 65%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+}
+
+.hero__card {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  will-change: opacity;
+  transition: opacity 0.9s ease;
+  overflow: hidden;
+}
+
+.hero__card.is-active {
+  opacity: 1;
+}
+
+.hero__card.is-active img {
+  animation: hero-kenburns 6s ease-out forwards;
+}
+
+@keyframes hero-kenburns {
+  from {
+    transform: scale(1.12);
+  }
+  to {
+    transform: scale(1.02);
+  }
+}
+
+.hero__card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(33, 31, 26, 0.05) 0%,
+    rgba(33, 31, 26, 0.35) 100%
+  );
+}
+
+.hero__card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero__meta {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.hero__room-label {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+}
+
+.hero__dots {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.hero__dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.hero__dot.is-active {
+  background: #fff;
+  transform: scale(1.3);
+}
+
+.hero__scroll-cue {
+  position: absolute;
+  left: 50%;
+  bottom: 1.75rem;
+  z-index: 2;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 3.5rem;
+  overflow: hidden;
+}
+
+.hero__scroll-line {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  transform: translateY(-100%);
+  animation: hero-scroll-cue 2.2s ease-in-out infinite;
+}
+
+@keyframes hero-scroll-cue {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__card {
+    transition: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 5.5rem 0 2rem;
+  }
+
+  .hero__title {
+    font-size: clamp(2rem, 7vw, 2.75rem);
+  }
+
+  .hero__room-label {
+    font-size: 1.15rem;
+  }
+}

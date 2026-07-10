@@ -1,0 +1,51 @@
+.approach {
+  padding: var(--space-section) 0;
+}
+
+.approach__heading {
+  margin-top: 1.25rem;
+  max-width: 42ch;
+  font-size: clamp(1.75rem, 3.2vw, 2.5rem);
+}
+
+.approach__steps {
+  list-style: none;
+  margin: 4rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.approach__step {
+  border-top: 1px solid var(--color-line);
+  padding-top: 1.5rem;
+}
+
+.approach__number {
+  font-family: var(--font-display);
+  color: var(--color-accent);
+  font-size: 1.1rem;
+}
+
+.approach__step h3 {
+  margin-top: 0.75rem;
+  font-size: 1.4rem;
+}
+
+.approach__step p {
+  margin-top: 0.75rem;
+  color: var(--color-ink-soft);
+}
+
+@media (max-width: 900px) {
+  .approach {
+    padding: 4.5rem 0;
+  }
+
+  .approach__steps {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2.5rem;
+  }
+}

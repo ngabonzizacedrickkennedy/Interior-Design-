@@ -1,0 +1,22 @@
+{
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "close": "Close",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "loading": "Loading...",
+    "saving": "Saving...",
+    "retry": "Retry",
+    "viewAll": "View all"
+  },
+  "status": {
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning"
+  }
+}
